@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, rgb(112, 112, 228), yellow);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: rgba(26, 22, 245, 0.774) !important;
+    font-weight: 600;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*---another section----*/
+
+#banner
+{
+    background-image:linear-gradient(to right, rgb(112, 112, 228), yellow) ;
+    color: #fff;
+    padding-top: 5%;
+}
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+/*-----projectLinks---*/
+
+#ProjectLinks
+{
+    padding: 80px 0;
+}
+.eye-image
+{
+    width: 300px;
+    margin-top: 20px;
+}
+.packman-image
+{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.bus-image
+{
+    width: 250px;
+    margin-top: 20px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+}
+.dropdown-menu
+{
+    color: black;
+    text-decoration: none;
+    background-image: none;
+}
