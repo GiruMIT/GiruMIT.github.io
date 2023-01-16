@@ -15,7 +15,7 @@ body
 }
 .navbar
 {
-    background-image: linear-gradient(to right, rgb(112, 112, 228), yellow);
+    background-image: linear-gradient(to right, rgb(112, 112, 228), rgba(123, 255, 0, 0.46));
     padding: 0 !important;
 }
 .navbar-brand img
@@ -29,7 +29,7 @@ body
 }
 .navbar-nav li a
 {
-    color: rgba(26, 22, 245, 0.774) !important;
+    color: rgba(46, 44, 140, 0.774) !important;
     font-weight: 600;
 }
 .fa-bars
@@ -46,7 +46,7 @@ body
 
 #banner
 {
-    background-image:linear-gradient(to right, rgb(112, 112, 228), yellow) ;
+    background-image:linear-gradient(to right, rgb(138, 138, 226), rgb(224, 231, 129)) ;
     color: #fff;
     padding-top: 5%;
 }
